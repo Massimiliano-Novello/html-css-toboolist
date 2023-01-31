@@ -7,13 +7,15 @@
 }
 
      /* COMMON */
+
+
 body{
     background-color: rgba(217, 217, 217, 1);
     font-family: Arial, sans-serif;
 }
 
 .container{
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
