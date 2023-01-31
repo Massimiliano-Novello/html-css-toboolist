@@ -6,9 +6,15 @@
     box-sizing: border-box;
 }
 
+     /* COMMON */
 body{
     background-color: rgba(217, 217, 217, 1);
     font-family: Arial, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -29,4 +35,114 @@ body{
 #img-titolo{
     height: 60px;
     vertical-align: middle;
+}
+
+
+    /* MAIN */
+
+.button{
+    margin-top: 2.2rem;
+    background-color: white;
+    width: 80%;
+    padding: 15px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottoni{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#primo{
+    margin-left: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: 3px solid black;
+}
+
+#secondo{
+    margin-left: 5px;
+    color: grey;
+    background-color: white;
+    border-color: aquamarine;
+ } 
+
+ .contenuto{
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    width: 80%;
+    background-color: white;
+ }
+
+ .elenco{
+    margin-left: 30px;
+    list-style-type: none;
+ }
+
+ .lista{
+    margin-left: 10px;
+    list-style-type: none;
+ }
+
+ .commento{
+    margin-top: 15px;
+    color: white;
+    font-size: .7rem;
+    display: inline-block;
+    background-color: blueviolet;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+ }
+
+.check{
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.cross{
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.secondo-commento{
+    margin-top: 15px;
+    color: white;
+    font-size: .7rem;
+    display: inline-block;
+    background-color: violet;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.terzo-commento{
+    margin-top: 15px;
+    color: white;
+    font-size: .7rem;
+    display: inline-block;
+    background-color: pink;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.titolo-elenco{
+    margin-top: 15px;
+}
+
+#upcoming{
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
